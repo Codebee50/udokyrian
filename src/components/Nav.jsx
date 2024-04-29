@@ -1,0 +1,29 @@
+import { navLinks } from '../constants'
+import { HiMenuAlt3  } from "react-icons/hi";
+
+
+const Nav = () => {
+  return (
+    <header className='flex flex-row items-center justify-between bg-deep-background max-container py-5 sticky top-0 z-10'>
+        <svg width={30} height={30} className='smooth-transition hover:scale-hover fill-vibrant'  xmlns="http://www.w3.org/2000/svg" viewBox="0 0 63.97 48.81"><defs></defs><title>Code bee</title><g id="Layer_2" data-name="Layer 2"><g id="Layer_1-2" data-name="Layer 1"><circle cx="52.79" cy="11.18" r="11.18"/><circle cx="11.18" cy="37.04" r="11.18"/><path d="M56.57,23.79a13,13,0,0,1-14.86-21A23.92,23.92,0,0,0,8.87,22.57a14.22,14.22,0,0,1,2.45-.21A14.78,14.78,0,0,1,22.66,46.62,23.93,23.93,0,0,0,56.59,24.9C56.59,24.53,56.58,24.16,56.57,23.79Z"/></g></g></svg>
+
+        <ul className='flex flex-row items-center gap-10 max-sm:hidden'>
+            {
+                navLinks.map((link)=> (
+                    <li key={link.label} className='text-vibrant-txt-color font-manrope hover:text-complement-color smooth-transition'><a href={link.href}>{link.label}</a></li>
+                ))
+            }
+        </ul>
+
+        <button  className='max-sm:hidden text-vibrant-txt-color bg-deep-background px-3 py-2 rounded-full text-sm font-manrope smooth-transition hover:bg-complement-color hover:text-deep-background flex items-center gap-2'>Resume <i className="ri-download-line"></i></button>
+            
+        <div className='sm:hidden'>
+          <HiMenuAlt3  className='fill-complement-color' size={'2.3em'}/>
+        {/* <svg width={30} height={30}  className="fill-complement-color" xmlns="http://www.w3.org/2000/svg" viewBox="0 0 24 24" fill="currentColor"><path d="M3 4H21V6H3V4ZM3 11H21V13H3V11ZM3 18H21V20H3V18Z"></path></svg> */}
+        
+        </div>
+    </header>
+  )
+}
+
+export default Nav

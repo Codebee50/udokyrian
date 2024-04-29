@@ -1,0 +1,60 @@
+@import url('https://fonts.googleapis.com/css2?family=Poppins:wght@400;700;800&display=swap');
+
+@import url("https://fonts.googleapis.com/css2?family=Manrope:wght@200..800&display=swap");
+@import url('https://fonts.googleapis.com/css2?family=Outfit:wght@100..900&display=swap');
+
+
+
+
+@tailwind base;
+@tailwind components;
+@tailwind utilities;
+
+@layer components{
+  *{
+    scroll-behavior: smooth;
+  }
+  .max-container{
+    width: 90%;
+    max-width: 1440px;
+    margin: 0 auto;
+  }
+
+  .custom-scrollbar::-webkit-scrollbar {
+    width: 0.16rem;
+    background-color: #fafbfc;
+  }
+
+  .custom-scrollbar::-webkit-scrollbar-thumb {
+    border-radius: 2rem;
+    background: #CED6F3;
+  }
+
+ 
+
+  .no-scrollbar::-webkit-scrollbar {
+    width: 0;
+    height: 0;
+  }
+  
+  .no-scrollbar::-webkit-scrollbar-thumb {
+    border-radius: 2rem;
+    background: #f1f2f2b4;
+  }
+}
+
+@layer utilities{
+
+  .smooth-transition{
+    transition: all ease-in-out 0.5s;
+  }
+
+  .fill-vibrant{
+    fill: #CED6F3;
+  }
+
+  .scale-hover{
+    fill: #db9864;
+    scale: 1.5;
+  }
+}
