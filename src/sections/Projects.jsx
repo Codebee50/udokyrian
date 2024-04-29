@@ -4,7 +4,7 @@ import { projectList } from "../constants";
 const Projects = () => {
   return (
     <section
-      className="bg-deep-background min-h-screen w-[90%] max-w-[1100px] flex flex-col items-center scroll-mt-28 mt-20"
+      className="bg-deep-background min-h-screen w-[90%] max-w-[1100px] flex flex-col items-center scroll-mt-28 mt-20 pb-[10vh]"
       id="projects"
     >
       {/* <div className="flex flex-row items-center gap-4 w-full justify-center mt-10">
@@ -15,7 +15,7 @@ const Projects = () => {
 
       <p className="text-dim-root-txt-color text-center">Lorem ipsum dolor sit amet consectetur adipisicing elit.</p> */}
 
-      <div className="w-full grid grid-cols-1 md:grid-cols-2 lg:grid-cols-3 m gap-10 items-start mt-20">
+      <div className="w-full grid grid-cols-1 md:grid-cols-2 lg:grid-cols-3 m gap-10 items-stretch justify-center mt-20">
         {projectList.map((project) => (
           <ProjectCard key={project.title} {...project} />
         ))}

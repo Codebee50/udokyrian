@@ -30,6 +30,13 @@
     background: #CED6F3;
   }
 
+
+  .end-justify{
+    justify-self: baseline !important;
+    align-self: baseline !important;
+    background-color: red;
+
+  }
  
 
   .no-scrollbar::-webkit-scrollbar {

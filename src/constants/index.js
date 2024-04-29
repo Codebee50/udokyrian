@@ -13,7 +13,11 @@ export const projectList = [
             'React js',
             'Tailwind', 
             'Ant design',
-            'Framer motion'
+            'Framer motion',
+            'HTML',
+            'CSS',
+            'JavaScript',
+            'Bread design'
         ],
         links:[
             {
