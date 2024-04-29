@@ -1,11 +1,10 @@
-import gridder from './datagridder-full.png'
-import bridgegap from './bridgegap.jpeg'
-import streamvibe from './streamvibe.png'
+import nnra_circle from './nnra_circle.webp'
+import streamvibe from './streamvibe.webp'
+import datagridder from './datagridder.webp'
 
 
 export {
-    gridder,
-    bridgegap,
-    streamvibe
-   
+    nnra_circle,
+    streamvibe,
+    datagridder
 }

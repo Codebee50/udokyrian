@@ -1,5 +1,5 @@
 import { javascript, html, css, tailwind, python, reactimg, sass, antd, firebase  } from "../assets/icons"
-import {gridder, bridgegap, streamvibe} from '../assets/projects'
+import {streamvibe, nnra_circle, datagridder} from '../assets/projects'
 
 export const projectList = [
     {
@@ -23,19 +23,14 @@ export const projectList = [
             {
                 'name': 'Github',
                 'link': '#',
-            },
-            {
-                'name': 'Live',
-                'link': '#',
-            },
-          
+            },      
         ]
     },
     {
-        title: 'Bridgegap clothing',
-        description: 'Website for a Nigerian based clothing store',
+        title: 'NNRA digital network',
+        description: 'Collaboration software for the Nigerian Nuclear Regulatory Authority',
         year: '2023',
-        image: bridgegap,
+        image: nnra_circle,
         live: '#',
         github: '#',
         technologies: [
@@ -46,10 +41,6 @@ export const projectList = [
         links:[
             {
                 'name': 'Github',
-                'link': '#',
-            },
-            {
-                'name': 'Live',
                 'link': '#',
             },
         ]
@@ -58,7 +49,7 @@ export const projectList = [
         title: 'Data gridder',
         description: 'Data collection and orgarnisation software',
         year: '2023',
-        image: gridder,
+        image: datagridder,
         live: '#',
         github: '#',
         technologies: [
@@ -69,10 +60,6 @@ export const projectList = [
         links:[
             {
                 'name': 'Github',
-                'link': '#',
-            },
-            {
-                'name': 'Live',
                 'link': '#',
             },
         ]
