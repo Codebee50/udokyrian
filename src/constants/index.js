@@ -14,10 +14,6 @@ export const projectList = [
             'Tailwind', 
             'Ant design',
             'Framer motion',
-            'HTML',
-            'CSS',
-            'JavaScript',
-            'Bread design'
         ],
         links:[
             {
@@ -31,8 +27,8 @@ export const projectList = [
         description: 'Collaboration software for the Nigerian Nuclear Regulatory Authority',
         year: '2023',
         image: nnra_circle,
-        live: '#',
-        github: '#',
+        live: 'https://codebee.pythonanywhere.com',
+        github: null,
         technologies: [
             'React js',
             'Tailwind', 
