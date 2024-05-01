@@ -64,4 +64,35 @@
     fill: #db9864;
     scale: 1.5;
   }
+
+  .no-scrollbar::-webkit-scrollbar {
+    width: 0;
+    height: 0;
+  }
+
+  .background-animate-text{
+    background:radial-gradient(circle, dodgerblue, #db9864);
+
+    animation: textbganimate 7s linear infinite;
+    background-size: 200% 200%;
+    background-clip: text;
+    fill: transparent;
+    color: transparent;
+  }
+
+  @keyframes textbganimate {
+    0%{
+      background-position: 0% 0%;
+    }
+
+    50%{
+      background-position: 100% 100%;
+
+    }
+
+    100%{
+      background-position: 0% 0%;
+
+    }
+  }
 }

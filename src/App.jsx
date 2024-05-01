@@ -3,7 +3,7 @@ import About from "./sections/About"
 import ContactSection from "./sections/ContactSection"
 import Hero from "./sections/Hero"
 import Projects from "./sections/Projects"
-import Footer from "./sections/Footer"
+import Codebee from "./sections/Codebee"
 
 const App = () => {
   return (
@@ -13,7 +13,7 @@ const App = () => {
       <About></About>
       <Projects/>
       <ContactSection/>
-      <Footer/>
+      <Codebee/>
     </main>
   )
 }

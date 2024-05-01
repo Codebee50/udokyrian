@@ -1,6 +1,6 @@
 import { BiMenuAltRight } from 'react-icons/bi';
 import { navLinks } from '../constants'
-import { HiMenuAlt3  } from "react-icons/hi";
+// import { HiMenuAlt3  } from "react-icons/hi";
 
 
 const Nav = () => {

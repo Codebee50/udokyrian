@@ -1,7 +1,7 @@
 const ContactFlatCard = (props) => {
   return (
-    <div className="flex flex-row gap-3 w-full sm:w-[90%] py-4 sm:p-4 rounded-2xl">
-        <div className="h-[40px] w-[40px] flex rounded-full">
+    <div className="flex flex-row gap-3 w-full py-4 rounded-2xl">
+        <div className="flex rounded-full">
             <props.icon className="fill-complement-color m-auto" size={'1.2em'}/>
         </div>
 
