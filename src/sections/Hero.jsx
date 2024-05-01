@@ -23,8 +23,11 @@ const Hero = () => {
           }
         </p>
 
-        <button className="mt-5 border rounded-lg border-complement-color text-complement-color font-poppins py-3 px-20 hover:bg-complement-color hover:text-deep-background transition-all ease-in-out duration-300">Lets Talk</button>
-
+        <a href="#contact">
+          <button className="mt-5 border rounded-lg border-complement-color text-complement-color font-poppins py-3 px-20 hover:bg-complement-color hover:text-deep-background transition-all ease-in-out duration-300">
+            Lets Talk
+          </button>
+        </a>
         <div className="flex flex-row items-end mt-7 gap-10 flex-wrap">
           <ConnectIcon>
             <i className="ri-github-line" title="Connect on github"></i>
@@ -42,7 +45,12 @@ const Hero = () => {
       </div>
 
       <div className="w-[50%] flex max-lg:w-full ">
-        <img src={computer} alt="Codebee codes" width={300} className="flex-shrink-0 m-auto w-[90%] sm:w-[60%]  lg:w-[90%]"/>
+        <img
+          src={computer}
+          alt="Codebee codes"
+          width={300}
+          className="flex-shrink-0 m-auto w-[90%] sm:w-[60%]  lg:w-[90%]"
+        />
       </div>
     </section>
   );

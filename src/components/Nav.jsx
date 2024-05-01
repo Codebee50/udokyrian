@@ -1,3 +1,4 @@
+import { BiMenuAltRight } from 'react-icons/bi';
 import { navLinks } from '../constants'
 import { HiMenuAlt3  } from "react-icons/hi";
 
@@ -18,7 +19,7 @@ const Nav = () => {
         <button  className='max-sm:hidden text-vibrant-txt-color bg-deep-background px-3 py-2 rounded-full text-sm font-manrope smooth-transition hover:bg-complement-color hover:text-deep-background flex items-center gap-2'>Resume <i className="ri-download-line"></i></button>
             
         <div className='sm:hidden'>
-          <HiMenuAlt3  className='fill-complement-color' size={'2.3em'}/>
+          <BiMenuAltRight  className='fill-complement-color' size={'2.3em'}/>
         {/* <svg width={30} height={30}  className="fill-complement-color" xmlns="http://www.w3.org/2000/svg" viewBox="0 0 24 24" fill="currentColor"><path d="M3 4H21V6H3V4ZM3 11H21V13H3V11ZM3 18H21V20H3V18Z"></path></svg> */}
         
         </div>
