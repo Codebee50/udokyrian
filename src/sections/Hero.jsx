@@ -1,12 +1,10 @@
 import ConnectIcon from "../components/ConnectIcon";
-// import coder from "../assets/images/codernol.svg";
-// import codeblocks from "../assets/images/codeblocks.svg";
 import computer from "../assets/images/computer.svg";
 
 const Hero = () => {
   return (
     <section
-      className="min-h-[60vh] bg-deep-background max-container lg:pt-10 pb-20 flex flex-row scroll-mt-32 max-lg:flex-col-reverse"
+      className="min-h-[80vh] bg-deep-background max-container lg:pt-10  flex flex-row scroll-mt-32 max-lg:flex-col-reverse"
       id="home"
     >
       <div className="flex flex-col items-start justify-center bg-no-repeat bg-right w-full max-lg:mt-8 lg:w-[50%]">
@@ -24,7 +22,7 @@ const Hero = () => {
         </p>
 
         <a href="#contact">
-          <button className="mt-5 border rounded-lg border-complement-color text-complement-color font-poppins py-3 px-20 hover:bg-complement-color hover:text-deep-background transition-all ease-in-out duration-300">
+          <button className="mt-5 border rounded-lg border-complement-color text-complement-color font-poppins py-3 px-20  hover:bg-complement-color  hover:text-deep-background transition-all ease-in-out duration-300">
             Lets Talk
           </button>
         </a>
