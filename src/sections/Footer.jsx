@@ -1,13 +1,13 @@
-import LinkFlex from "../components/LinkFlex"
-import { footerItems } from "../constants"
-import { IoLogoFacebook, IoLogoLinkedin } from "react-icons/io5";
-import { IoLogoTwitter } from "react-icons/io";
+// import LinkFlex from "../components/LinkFlex"
+// import { footerItems } from "../constants"
+// import { IoLogoFacebook, IoLogoLinkedin } from "react-icons/io5";
+// import { IoLogoTwitter } from "react-icons/io";
 
 const Footer = () => {
   return (
     <footer className="pt-[20vh]  padding-x max-container bg-deep-background w-[90%] ">
         <div className="flex flex-col">
-            <div className="grid grid-cols-2 sm:grid-cols-3 lg:grid-cols-6 pb-20 gap-14 justify-between ">
+            {/* <div className="grid grid-cols-2 sm:grid-cols-3 lg:grid-cols-6 pb-20 gap-14 justify-between ">
                 {
                     footerItems.map((footerItem, index)=> (
                         <LinkFlex key={`footeritm${index}`}  items={footerItem} />
@@ -29,10 +29,10 @@ const Footer = () => {
                         </div>
                     </div>
                 </div>
-            </div>
+            </div> */}
 
-            <div className="border-t-strokeBlack py-9  border-t-[0.5px] border-t-dim-root-txt-color  flex flex-wrap gap-5 flex-row items-center justify-between w-full">
-                <p className="font-manrope text-dim-root-txt-color text-[0.7rem] sm:text-sm font-normal" >@2024 Codebee, All rights Reserved</p>
+            <div className="border-t-strokeBlack py-9  border-t-[0.5px] border-t-dim-root-txt-color flex flex-wrap w-full ">
+                <p className="font-manrope text-dim-root-txt-color text-[0.7rem] sm:text-sm font-normal text-center m-auto" >@2024 Designed and built by Codebee</p>
 
                
             </div>

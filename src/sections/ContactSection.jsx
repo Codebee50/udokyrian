@@ -10,7 +10,7 @@ const ContactSection = () => {
         <div className="flex flex-col rounded-xl w-full sm:w-[50%]">
             <p className="font-manrope font-medium text-complement-color">Get In Touch</p>
             <h2 className="text-2xl text-vibrant-txt-color font-poppins">Lets chat, reach out to me.</h2>
-            <p className="text-[0.8rem] text-dim-root-txt-color font-manrope max-w-[400px]">Whether you have a job proposition to discuss or simply want to say hello, feel free to reach out to me. I'll be delighted to get back to you as soon as possible.</p>
+            <p className="text-[0.8rem] text-dim-root-txt-color font-manrope max-w-[400px]">{"Whether you have a job proposition to discuss or simply want to say hello, feel free to reach out to me. I'll be delighted to get back to you as soon as possible."}</p>
 
             <form action="" className="mt-10 flex flex-col gap-7">
                 <InputLabel type="text" label="Your name" id="name" />
