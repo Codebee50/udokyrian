@@ -4,6 +4,7 @@ import ContactSection from "./sections/ContactSection"
 import Hero from "./sections/Hero"
 import Projects from "./sections/Projects"
 import Codebee from "./sections/Codebee"
+// import Work from "./sections/Work"
 
 const App = () => {
   return (
@@ -11,6 +12,7 @@ const App = () => {
       <Nav></Nav>
       <Hero></Hero>
       <About></About>
+      {/* <Work/> */}
       <Projects/>
       <ContactSection/>
       <Codebee/>
