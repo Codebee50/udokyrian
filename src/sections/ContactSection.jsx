@@ -114,7 +114,7 @@ const ContactSection = () => {
         messageApi.open({
           key: key,
           type: "success",
-          content: "Message sent! Ill be in touch soon",
+          content: "Thank you for your message. I will be in touch shortly.",
           duration: 4,
         });
       },

@@ -175,8 +175,8 @@ export const projectList = [
 
   {
     title: "Hannatu Halan Foundation",
-    description: "Highly performant data collection and orgarnisation software.",
-    year: 2023,
+    description: "Compelling Landing Page for a Cause Driven NGO",
+    year: 2024,
     image: hannatu,
     live: "https://hannatuhalanfoundation.com/",
     github: null,
@@ -265,7 +265,7 @@ export const technologies = [
     link: "",
   },
   {
-    label: "TypsScript",
+    label: "TypeScript",
     image: typescript,
     link: "",
   },
