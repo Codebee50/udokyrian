@@ -7,6 +7,11 @@ import reactimg from './technologies/react.png'
 import sass from './technologies/sass.png'
 import antd from './technologies/antd.svg'
 import firebase from './technologies/firebase.webp'
+import docker from './technologies/docker.png'
+import framermotion from './technologies/framermotion.png'
+import typescript from './technologies/typescript.png'
+import aws from './technologies/aws.png'
+import postman from './technologies/postman.svg'
 
 
 
@@ -21,5 +26,10 @@ export {
     reactimg,
     sass,
     antd,
-    firebase
+    firebase,
+    docker,
+    framermotion,
+    typescript,
+    aws,
+    postman
 }

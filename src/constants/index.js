@@ -1,4 +1,4 @@
-import { javascript, html, css, tailwind, python, reactimg, sass, antd, firebase  } from "../assets/icons"
+import { javascript, html, css, tailwind, python, reactimg, sass, antd, firebase, framermotion, docker, typescript, aws, postman  } from "../assets/icons"
 import {streamvibe, nnra_circle, datagridder} from '../assets/projects'
 
 
@@ -182,6 +182,21 @@ export const technologies =[
         'link': ''
     },
     {
+        'label': 'Docker',
+        'image': docker,
+        'link': ''
+    },
+    {
+        'label': 'aws',
+        'image': aws,
+        'link': ''
+    },
+    {
+        'label': 'Postman',
+        'image': postman,
+        'link': ''
+    },
+    {
         'label': 'React Js',
         'image': reactimg,
         'link': ''
@@ -197,6 +212,12 @@ export const technologies =[
         'link': ''
     },
     {
+        'label': 'Framer Motion',
+        'image': framermotion,
+        'link': ''
+    },
+
+    {
         'label': 'Firebase',
         'image': firebase,
         'link': ''
@@ -204,6 +225,11 @@ export const technologies =[
     {
         'label': 'JavaScript',
         'image': javascript,
+        'link': ''
+    },
+    {
+        'label': 'TypsScript',
+        'image': typescript,
         'link': ''
     },
     {
