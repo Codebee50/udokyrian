@@ -19,6 +19,7 @@ import {
   nnra_circle,
   datagridder,
   auspicious,
+  hannatu,
 } from "../assets/projects";
 
 export const footerItems = [
@@ -125,7 +126,7 @@ export const footerItems = [
 export const projectList = [
   {
     title: "OTT StreamVibe",
-    description: "Movie Streaming Platform Website",
+    description: "Movie Streaming Platform Website.",
     year: 2024,
     image: streamvibe,
     live: "https://bee-ott.vercel.app",
@@ -141,7 +142,7 @@ export const projectList = [
   {
     title: "NNRA digital network",
     description:
-      "Collaboration software for the Nigerian Nuclear Regulatory Authority",
+      "Collaboration software for the Nigerian Nuclear Regulatory Authority.",
     year: 2024,
     image: nnra_circle,
     live: "https://codebee.pythonanywhere.com",
@@ -173,8 +174,23 @@ export const projectList = [
   },
 
   {
+    title: "Hannatu Halan Foundation",
+    description: "Highly performant data collection and orgarnisation software.",
+    year: 2023,
+    image: hannatu,
+    live: "https://hannatuhalanfoundation.com/",
+    github: null,
+    technologies: ["React", "Ant Design", "Framer motion", "Javascript"],
+    links: [
+      {
+        name: "Github",
+        link: "#",
+      },
+    ],
+  },
+  {
     title: "Data gridder",
-    description: "Highly performant data collection and orgarnisation software",
+    description: "Highly performant data collection and orgarnisation software.",
     year: 2023,
     image: datagridder,
     live: "https://datagridder.com",

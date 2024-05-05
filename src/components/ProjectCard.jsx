@@ -1,7 +1,8 @@
 import { useState } from "react";
-import { CgSpinnerAlt } from "react-icons/cg";
+// import { CgSpinnerAlt } from "react-icons/cg";
 import { CiLock } from "react-icons/ci";
 import { CiUnlock } from "react-icons/ci";
+import { ImSpinner8 } from "react-icons/im";
 import { RiGithubLine } from "react-icons/ri";
 // import { defaultbg } from "../assets/images";
 
@@ -55,7 +56,7 @@ const ProjectCard = (props) => {
           {imageLoaded ? (
             getLockIcon()
           ) : (
-            <CgSpinnerAlt
+            <ImSpinner8
               className=" fill-complement-color ml-[4px] mt-[4px] spinner"
               size={"1.4em"}
               color="#db9864"
