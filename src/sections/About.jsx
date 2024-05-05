@@ -14,7 +14,7 @@ function About() {
       <div className="w-full">
         <HeadingText label="About me" className="mt-10 sm:mt-20" />
 
-        <h2 className="font-poppins font-bold text-2xl text-root-txt-color">
+        <h2 className="font-poppins font-bold text-xl sm:text-2xl text-root-txt-color">
           Relentless problem solver.
         </h2>
 
