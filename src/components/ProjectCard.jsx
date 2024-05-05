@@ -1,13 +1,35 @@
 import { useState } from "react";
+// import { CgSpinnerAlt } from "react-icons/cg";
 import { CiLock } from "react-icons/ci";
 import { CiUnlock } from "react-icons/ci";
+import { ImSpinner8 } from "react-icons/im";
 import { RiGithubLine } from "react-icons/ri";
+// import { defaultbg } from "../assets/images";
 
 const ProjectCard = (props) => {
   const [scrollLock, setScrollLock] = useState(true);
+  const [imageLoaded, setImageLoaded] = useState(false);
 
   function toggleScrollLock() {
     setScrollLock((prev) => !prev);
+  }
+
+  function imageLoadedHandler() {
+    setImageLoaded(true);
+  }
+
+  function getLockIcon() {
+    return scrollLock ? (
+      <CiLock
+        className=" fill-vibrant-txt-color ml-[4px] mt-[4px]"
+        size={"1.4em"}
+      />
+    ) : (
+      <CiUnlock
+        className=" fill-complement-color ml-[4px] mt-[4px]"
+        size={"1.4em"}
+      />
+    );
   }
   return (
     <article className="flex flex-col flex-grow">
@@ -15,29 +37,29 @@ const ProjectCard = (props) => {
         <div
           className={`w-full h-[300px] ${
             scrollLock ? "overflow-y-hidden" : "overflow-y-scroll"
-          } no-scrollbar`}
+          } no-scrollbar bg-defaultbg bg-cover bg-center `}
         >
-          <img src={props.image} alt="" className="w-full" />
+          <img
+            src={props.image}
+            alt=""
+            className={`w-full ${imageLoaded ? "block" : "hidden"}`}
+            onLoad={imageLoadedHandler}
+            loading="lazy"
+          />
         </div>
-
-        {/* <div className="w-full h-full absolute top-0 z-10 bg-gradient-to-t from-deep-background via-transparent flex flex-col justify-end p-5">
-       
-        </div> */}
 
         <div
           className="absolute bottom-0 right-0 bg-deep-background w-[50px] h-[50px] rounded-tl-[2rem] flex items-center justify-center cursor-pointer"
           title="Toggle scroll"
           onClick={toggleScrollLock}
         >
-          {scrollLock ? (
-            <CiLock
-              className=" fill-vibrant-txt-color ml-[4px] mt-[4px]"
-              size={"1.4em"}
-            />
+          {imageLoaded ? (
+            getLockIcon()
           ) : (
-            <CiUnlock
-              className=" fill-complement-color ml-[4px] mt-[4px]"
+            <ImSpinner8
+              className=" fill-complement-color ml-[4px] mt-[4px] spinner"
               size={"1.4em"}
+              color="#db9864"
             />
           )}
         </div>

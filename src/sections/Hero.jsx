@@ -44,16 +44,16 @@ const Hero = () => {
           </button>
         </a>
         <div className="flex flex-row items-end mt-7 gap-10 flex-wrap">
-          <ConnectIcon>
+          <ConnectIcon link={"https://github.com/Codebee50"}>
             <i className="ri-github-line" title="Connect on github"></i>
           </ConnectIcon>
-          <ConnectIcon>
+          <ConnectIcon link={"https://www.linkedin.com/in/udochukwu-onuh-9035a4232?utm_source=share&utm_campaign=share_via&utm_content=profile&utm_medium=android_app"}>
             <i className="ri-linkedin-fill" title="Connect on linkedin"></i>
           </ConnectIcon>
-          <ConnectIcon>
+          <ConnectIcon link={"https://twitter.com/OnuhUdo"}>
             <i className="ri-twitter-fill" title="Connecct on twitter"></i>
           </ConnectIcon>
-          <ConnectIcon>
+          <ConnectIcon link={"https://wa.me/+2349128168542"}>
             <i className="ri-whatsapp-line" title="Connecct on whatsapp"></i>
           </ConnectIcon>
         </div>
