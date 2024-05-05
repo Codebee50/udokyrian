@@ -1,5 +1,6 @@
 import ConnectIcon from "../components/ConnectIcon";
 import computer from "../assets/images/computer.svg";
+import { motion } from "framer-motion";
 
 const Hero = () => {
   return (
@@ -8,7 +9,23 @@ const Hero = () => {
       id="home"
     >
       <div className="flex flex-col items-start justify-center bg-no-repeat bg-right w-full max-lg:mt-8 lg:w-[50%]">
-        <p className="text-complement-color">{"Hello 👋🏽, I'm"}</p>
+        <div className="flex flex-row gap-[2px]">
+          <p className="text-complement-color">Hello</p>
+          <motion.span
+            animate={{
+              rotate: [0, -20, 0, 20, 0],
+            }}
+            transition={{
+              duration: 2,
+              ease: "easeInOut",
+              repeat: Infinity,
+              repeatDelay: 1,
+            }}
+          >
+            👋🏽
+          </motion.span>
+          <p className="text-complement-color">{", I'm"}</p>
+        </div>
         <h1 className="font-poppins font-[700] text-[2.5rem] tiny:text-[3.1rem] phone:text-[3.2rem] text-vibrant-txt-color">
           Onuh Kyrian Udochukwu.
         </h1>
