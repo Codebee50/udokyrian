@@ -63,11 +63,11 @@ const Nav = () => {
           </svg>
         </a>
 
-        <ul className="flex flex-row items-center gap-10 max-sm:hidden">
+        <ul className="flex flex-row items-center gap-10 md:gap-20 max-sm:hidden">
           {navLinks.map((link) => (
             <li
               key={link.label}
-              className="text-vibrant-txt-color font-manrope hover:text-complement-color smooth-transition"
+              className="text-vibrant-txt-color font-outfit hover:text-complement-color smooth-transition"
             >
               <a href={link.href}>{link.label}</a>
             </li>
@@ -79,7 +79,7 @@ const Nav = () => {
           rel="noreferrer"
           href="https://docs.google.com/document/d/1S8VsNTLAohgtdjcjx8lCkk4S4aBGRXSChMnHBlm11IE/edit?usp=sharing"
         >
-          <button className="max-sm:hidden text-vibrant-txt-color bg-deep-background px-3 py-2 rounded-full text-sm font-manrope smooth-transition hover:bg-complement-color hover:text-deep-background flex items-center gap-2">
+          <button className="max-sm:hidden text-vibrant-txt-color bg-deep-background px-3 py-2 rounded-full text-sm font-outfit smooth-transition hover:bg-complement-color hover:text-deep-background flex items-center gap-2">
             Resume <i className="ri-download-line"></i>
           </button>
         </a>
