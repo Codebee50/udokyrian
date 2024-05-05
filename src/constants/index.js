@@ -147,7 +147,7 @@ export const projectList = [
     image: nnra_circle,
     live: "https://codebee.pythonanywhere.com",
     github: null,
-    technologies: ["Django", "Daphne", "Javascript", "Redis", "Websockets"],
+    technologies: ["Django", "Daphne", "ASGI", "Javascript", "Redis", "Websockets"],
     links: [
       {
         name: "Github",
