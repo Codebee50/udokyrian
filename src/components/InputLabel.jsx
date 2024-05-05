@@ -7,7 +7,7 @@ const InputLabel = React.forwardRef((props, ref)=>{
     <div className="flex flex-col w-full">
 
         <label htmlFor={props.id} className="font-manrope text-dim-root-txt-color">{props.label}</label>
-
+        {/* incase of different inputs */}
         {
             props.type == 'textarea'? <textarea ref={ref} rows={5} id={props.id} type={props.type} className={inputclasses} required />: <input id={props.id} ref={ref} type={props.type} className={inputclasses} required/>
         }
