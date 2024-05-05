@@ -5,7 +5,7 @@ import HeadingText from "../components/HeadingText";
 const Projects = () => {
   return (
     <section
-      className="bg-deep-background min-h-screen w-[90%] max-w-[1100px] flex flex-col items-center scroll-mt-28 mt-20 pb-[10vh]"
+      className="bg-deep-background min-h-screen w-[90%] max-w-[1100px] flex flex-col items-center scroll-mt-28 mt-32 pb-[10vh]"
       id="projects"
     >
       <HeadingText label="Projects"/>

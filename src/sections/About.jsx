@@ -1,4 +1,5 @@
-import udopic from "../assets/images/udo-pic.png";
+import udopic from "../assets/images/udo-picmod.png";
+// import me from "../assets/images/melarge.png";
 import HeadingText from "../components/HeadingText";
 import Square from "../components/Square";
 import Technology from "../components/Technology";
@@ -11,9 +12,7 @@ function About() {
       id="about"
     >
       <div className="w-full">
-    
-
-        <HeadingText label="About me" className="mt-10 sm:mt-20"/>
+        <HeadingText label="About me" className="mt-10 sm:mt-20" />
 
         <h2 className="font-poppins font-bold text-2xl text-root-txt-color">
           Relentless problem solver.
@@ -32,10 +31,10 @@ function About() {
             <article className="max-w-[750px] text-root-txt-color leading-[2] font-poppins font-medium text-[0.9rem]">
               Yup thats me {":)"}, my name is{" "}
               <span className="text-complement-color">Kyrian</span>, porpularly
-              known as Codebee as
-              regards to my love for the work ethic of bees. I enjoy creating
-              peculiar web applications designed with problem solving in mind. I
-              am a <span className="text-complement-color">full-stack</span> web
+              known as Codebee as regards to my love for the work ethic of bees.
+              I enjoy creating peculiar web applications designed with problem
+              solving in mind. I am a{" "}
+              <span className="text-complement-color">full-stack</span> web
               developer.
               <br /> With over{" "}
               <span className="text-complement-color">2 years</span> coding
