@@ -15,6 +15,7 @@ const ProjectCard = (props) => {
   }
 
   function imageLoadedHandler() {
+    console.log('image loaded')
     setImageLoaded(true);
   }
 
@@ -42,7 +43,7 @@ const ProjectCard = (props) => {
           <img
             src={props.image}
             alt=""
-            className={`w-full ${imageLoaded ? "block" : "hidden"}`}
+            className={`w-full ${imageLoaded ? "opacity-100" : "opacity-0"}`}
             onLoad={imageLoadedHandler}
             loading="lazy"
           />
