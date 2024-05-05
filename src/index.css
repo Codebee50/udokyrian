@@ -70,6 +70,19 @@
     height: 0;
   }
 
+  .spinner {
+    animation: spin 1s linear infinite;
+  }
+
+  @keyframes spin {
+    from {
+      transform: rotate(0deg);
+    }
+    to {
+      transform: rotate(360deg);
+    }
+  }
+
  
   .background-animate-text{
     background:radial-gradient(circle, dodgerblue, #db9864);

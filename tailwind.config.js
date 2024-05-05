@@ -25,7 +25,8 @@ export default {
         'tiny': '360px'
       },
       backgroundImage: {
-        'binary': "url('/src/assets/images/binary-img.svg')"
+        'binary': "url('/src/assets/images/binary-img.svg')",
+        'defaultbg': "url('/src/assets/images/defaultbg.png')"
       }
     },
   },
