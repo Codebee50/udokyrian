@@ -146,6 +146,8 @@ const ContactSection = () => {
           {
             "Whether you have a job proposition to discuss or simply want to say hello, feel free to reach out to me. I'll be delighted to get back to you as soon as possible."
           }
+
+       
         </p>
 
         {/* <img src={manoncall} alt="" className="w-[90%] max-w-[300px] max-sm:hidden"/> */}
