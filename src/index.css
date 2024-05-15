@@ -48,6 +48,10 @@
     border-radius: 2rem;
     background: #f1f2f2b4;
   }
+
+  .grid-auto-fill{
+    grid-template-columns: repeat(auto-fill, minmax(100px, 1fr));
+  }
 }
 
 @layer utilities{

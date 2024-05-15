@@ -61,7 +61,7 @@ function About() {
           </p>
         </div>
 
-        <div className="mt-6 flex flex-row gap-10 flex-wrap">
+        <div className="mt-6 grid max-sm:grid-auto-fill sm:flex justify-between flex-row gap-10 flex-wrap">
           {technologies.map((tech) => (
             <Technology key={tech.label} item={tech}></Technology>
           ))}

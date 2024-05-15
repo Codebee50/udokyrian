@@ -147,7 +147,7 @@ export const projectList = [
     image: nnra_circle,
     live: "https://codebee.pythonanywhere.com",
     github: null,
-    technologies: ["Django", "Daphne", "ASGI", "Javascript", "Redis", "Websockets"],
+    technologies: ["Django", "Daphne", "ASGI", "Javascript", "Redis", "Websockets", "Nginx"],
     links: [
       {
         name: "Github",
@@ -175,7 +175,7 @@ export const projectList = [
 
   {
     title: "Hannatu Halan Foundation",
-    description: "Compelling Landing Page for a Cause Driven NGO",
+    description: "Compelling landing page for a Nigerian cause driven NGO",
     year: 2024,
     image: hannatu,
     live: "https://hannatuhalanfoundation.com/",
