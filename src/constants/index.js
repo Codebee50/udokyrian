@@ -20,6 +20,8 @@ import {
   datagridder,
   auspicious,
   hannatu,
+  globalplug,
+  boles
 } from "../assets/projects";
 
 export const footerItems = [
@@ -124,6 +126,22 @@ export const footerItems = [
 ];
 
 export const projectList = [
+  {
+    title: "Global plug",
+    description: "Developed the backend for a travel agency platform with features including travel credential applications, secure payments, and a comprehensive admin dashboard for seamless management.",
+    year: 2024,
+    image: globalplug,
+    live: "https://play.google.com/store/apps/details?id=com.nanocodes.globalplug",
+    technologies: ["Django rest framework", "Celery", "Docker", "Weasyprint", 'Channels', 'Daphne', 'websockets', 'AWS s3', 'GCP'],
+  },
+  {
+    title: "Boles inventory managment",
+    description: "Co-developed the backend for a custom inventory management system, supporting a mobile app for multiple departments and an admin dashboard to track stock levels and monitor business inflow and outflow.",
+    year: 2024,
+    image: boles,
+    live: "https://play.google.com/store/apps/details?id=com.nanocodes.Boles",
+    technologies: ["Django rest framework", "Docker", "gunicorn", 'Nginx', 'AWS s3', 'GCP'],
+  },
   {
     title: "OTT StreamVibe",
     description: "Movie Streaming Platform Website.",
