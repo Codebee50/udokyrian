@@ -1,5 +1,5 @@
-import udopic from "../assets/images/udo-picmod.png";
-// import udokyrian from "../assets/images/udokyrian.jpg";
+// import udopic from "../assets/images/udo-picmod.png";
+import udokyrian from "../assets/images/udokyrian.jpg";
 // import me from "../assets/images/melarge.png";
 import HeadingText from "../components/HeadingText";
 import Square from "../components/Square";
@@ -21,7 +21,7 @@ function About() {
 
         <div className="w-full flex flex-col gap-5 lg:flex-row items-start mt-8">
           <img
-            src={udopic}
+            src={udokyrian}
             width={300}
             height={300}
             className="object-cover object-center rounded-md"
