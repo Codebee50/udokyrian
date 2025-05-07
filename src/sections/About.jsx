@@ -1,10 +1,10 @@
 import udopic from "../assets/images/udo-picmod.png";
+// import udokyrian from "../assets/images/udokyrian.jpg";
 // import me from "../assets/images/melarge.png";
 import HeadingText from "../components/HeadingText";
 import Square from "../components/Square";
 import Technology from "../components/Technology";
 import { technologies } from "../constants";
-import kyrian from '../assets/images/kyrian.jpg'
 
 function About() {
   return (
@@ -15,7 +15,7 @@ function About() {
       <div className="w-full">
         <HeadingText label="About me" className="mt-10 sm:mt-20" />
 
-        <h2 className="font-poppins font-bold text-xl sm:text-2xl text-root-txt-color">
+        <h2 className="font-poppins font-semibold text-xl sm:text-2xl text-root-txt-color">
           Relentless problem solver.
         </h2>
 
@@ -38,7 +38,7 @@ function About() {
               <span className="text-complement-color">full-stack</span> web
               developer.
               <br /> With over{" "}
-              <span className="text-complement-color">2 years</span> coding
+              <span className="text-complement-color">3 years</span> coding
               experience, I command a formidable skill set enabling me craft,
               manage and implement reliable, secure and scalable architectures
               for the backend and responsive, user-friendly websites for the
@@ -48,7 +48,7 @@ function About() {
             <br />
             <p className="max-w-[600px] text-root-txt-color leading-[1.8] font-poppins text-[0.9rem]">
               I am adept at collaborating with cross-functional teams to deliver
-              exceptional web applications.
+              exceptional software.
             </p>
           </div>
         </div>
