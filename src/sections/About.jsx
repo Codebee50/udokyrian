@@ -4,6 +4,7 @@ import HeadingText from "../components/HeadingText";
 import Square from "../components/Square";
 import Technology from "../components/Technology";
 import { technologies } from "../constants";
+import kyrian from '../assets/images/kyrian.jpg'
 
 function About() {
   return (

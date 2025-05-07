@@ -21,7 +21,9 @@ import {
   auspicious,
   hannatu,
   globalplug,
-  boles
+  boles,
+  licomed,
+  erdvision
 } from "../assets/projects";
 
 export const footerItems = [
@@ -126,6 +128,22 @@ export const footerItems = [
 ];
 
 export const projectList = [
+  {
+    title: "ErdVision",
+    description: "Designed and developed the full-stack architecture for ERDVision, a SaaS platform for creating database diagrams with real-time collaboration, in-app chat, and automatic code generation in SQL and Python ORM—using Next.js, Tailwind CSS, and Django Rest Framework.",
+    year: 2025,
+    image: erdvision,
+    live: "https://erdvision.dev",
+    technologies: ["Django rest framework", "Docker", 'Channels', 'Daphne', 'websockets', 'Digital ocean', "Next.js", "Tailwind"],
+  },
+  {
+    title: "Licomed",
+    description: "Developed the backend for a health management platform with features including patient-doctor consultations, medical record handling, secure payments, and an admin dashboard for efficient healthcare service coordination.",
+    year: 2025,
+    image: licomed,
+    live: "https://play.google.com/store/apps/details?id=com.nanocodes.licomed",
+    technologies: ["Django rest framework", "Celery", "Docker", "Google maps api", 'Channels', 'Daphne', 'websockets', 'AWS'],
+  },
   {
     title: "Global plug",
     description: "Developed the backend for a travel agency platform with features including travel credential applications, secure payments, and a comprehensive admin dashboard for seamless management.",

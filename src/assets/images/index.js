@@ -1,5 +1,7 @@
 import defaultbg from './defaultbg.png'
+import kyrian from './kyrian.png'
 
 export {
-    defaultbg
+    defaultbg,
+    kyrian
 }
