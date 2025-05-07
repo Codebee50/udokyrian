@@ -5,6 +5,8 @@ import auspicious from './auspicious.webp'
 import hannatu from './hannatu.webp'
 import globalplug from './globalplug.png'
 import boles from './boles.png'
+import licomed from './licomed.png'
+import erdvision from './erdvision.webp'
 
 export {
     nnra_circle,
@@ -13,5 +15,7 @@ export {
     auspicious,
     hannatu,
     globalplug,
-    boles
+    boles,
+    licomed,
+    erdvision
 }
